@@ -1,0 +1,17 @@
+gi//To create new repo
+git init
+git add .	//. means all file
+git commit -m "Initial Commit"
+git remote add origin "url"
+git push -u origin master
+
+
+
+//to modify existing repo
+git add .	//. means all file
+git commit -m "msg"
+git push -u origin master // -u means upstream
+
+//To go back to old commit
+git checkout <commit_id>
+
